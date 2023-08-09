@@ -1,0 +1,137 @@
+/*----------------------barra de busqueda--------------------*/
+.divBarra{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.Biconos{
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border: white;
+}
+
+.imagenes{
+  height: 35px;
+  width: 35px;
+}
+
+.logoY{
+  width: 180px;
+  height: 45px;
+  margin-left: 35px;
+}
+
+.barra{
+  height: 35px;
+  width: 550px;
+  font-size: 20px;
+  margin-left: 150px;
+  border: 1px solid #000000;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.lupa{
+  margin-left: 420px;
+  background-color: white;
+  border-left: 0px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.imglupa{
+  height: 25px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-right: 10px;
+}
+
+.microfono{
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 600px;
+  background-color: white;
+  margin-left: 45px;
+}
+
+.imgmicro{
+  height: 25px;
+  width: 25px;
+  
+}
+
+/*-------------------notificaciones-----------------*/
+
+.botonNoti{
+  background-color: white;
+  border: 1px solid #ffffff;
+}
+
+.crear{
+  width: 35px;
+  height: 30px;
+}
+
+.imagenes{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.usuario{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-top: 2px;
+}
+
+.botonUsuario{
+  width: 30px;
+  height: 30px;
+  background-color: white; 
+  border: 1px solid #ffffff;
+}
+
+/*-------------separacion de divs-------------*/
+.contenedor {
+  display: flex;
+}
+
+.div-izquierdo {
+  width: 285px;
+  flex-shrink: 5;
+}
+
+.div-derecho {
+  flex-grow: 1;
+}
+
+/*------------------videos----------------------*/
+
+/*-------------------video desplegado--------------*/
+
+.pantalla{
+  margin-top: 20px;
+}
+
+.pantalla2{
+  border: 1px solid #747272;
+  height: 645px;
+}
+
+/*-----------separacion div video------------------*/
+.container {
+  display: flex;
+}
+
+.div1 {
+  flex: 2.8;
+  padding: 10px;
+}
+
+.div2 {
+  flex: 1;
+  padding: 10px;
+}
